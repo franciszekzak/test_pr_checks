@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run pr checks
-        uses:  franciszekzak/fyle-pr-action@v0.3
+        uses:  franciszekzak/fyle-pr-action@v0.4
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           config-file: .github/pr_checks_config.yaml
