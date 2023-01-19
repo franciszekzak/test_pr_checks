@@ -10,8 +10,3 @@ pr_checks:
       regex: 'https://docs\.example\.com' # Matching anywhere in the description
       message_if_not_matching: 'PR description must contain a link to the docs'
 
-  file_path:
-    - name: 'anywhere'
-      regex: '^.*' # Regex for matching file path, relative to the root of the repository
-      reviewers:
-        - 'maniexx' # Use GitHub usernames
