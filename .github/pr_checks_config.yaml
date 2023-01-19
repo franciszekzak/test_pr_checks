@@ -14,4 +14,4 @@ pr_checks:
     - name: 'anywhere'
       regex: '^.*' # Regex for matching file path, relative to the root of the repository
       reviewers:
-        - 'franciszekzak' # Use GitHub usernames
+        - 'maniexx' # Use GitHub usernames
